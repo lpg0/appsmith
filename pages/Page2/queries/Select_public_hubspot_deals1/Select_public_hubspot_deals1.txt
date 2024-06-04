@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.hubspot_deals
+WHERE
+  "dealname" ilike '%{{Table1.searchText}}%'
+ORDER BY
+  "{{Table1.sortOrder.column || 'deal_id'}}" {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table1.pageSize}}
+OFFSET
+  {{Table1.pageOffset}}

@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.hubspot_deals where dealname ilike '%{{Table1.searchText}}%';

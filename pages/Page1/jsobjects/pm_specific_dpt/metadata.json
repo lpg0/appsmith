@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "pm_specific_dpt",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page1_pm_specific_dpt",
+  "deleted": false,
+  "gitSyncId": "665f5ae1303bdb206dcfdd93_8eec73b7-56c4-4f18-93bd-8e56eb5e11b8"
+}
